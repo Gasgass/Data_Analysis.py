@@ -72,7 +72,8 @@ with open("C:\\Users\\segui\\PycharmProjects\\Data_Analysis\\Scrap.csv", "r") as
                             print("b")
                             scrap_precios()
                             #time.sleep(10)
-                            driver.quit()
+                            #driver.quit()
+                            break
                     except:
                         quit("Terminó")
                 except:
